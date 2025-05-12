@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Avengers | Contacts </title>
+
+<link rel="stylesheet" href="./style.css">
+<script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+		<!-- MEGA MENU -->
+<div class="main body" style="color:white">
+<div class="mega-menu" id="mymenu">
+	<img src="small-logo.png" alt="Avengers Logo" class="logo">
+	<a href="./HomePage.html">Home</a>
+	<a href="./Blogs.html">Blogs</a>
+	<a href="./contacts.html" class="active">Contacts</a>
+	<a href="./About.html">About Us</a>
+	<a href="javascript:void(0);" class="icon"
+	onclick="myFunction()">
+	<i class="fa fa-bars"></i>
+</a>
+</div>
+
+<!-- LOCATION -->
+<div class="loc-text">
+<h2> Where are we located? </h2>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358963.0400120471!2d-74.30984132092809!3d40.69667072649662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e1!3m2!1sen!2sph!4v1741182733066!5m2!1sen!2sph" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- CONTACT FORM -->
+<div class="form-body">
+	<div class="contact">
+		<fieldset>
+			<h1> Contact Us Using This Form </h1>
+			<form action="submit_form.php"
+			method="POST">
+			Full Name:<br>
+			<input type="text" name="fname"  placeholder="Enter your full name:"> <br> 
+			Address: <br>
+			<input type="text" add="addr" placeholder="Enter your address:"> <br> 
+			Contact No: <br>
+			<input type="text" num="cn" placeholder="Enter your contact number:"> <br> 
+			Email: <br>
+			<input type="text" email="email" placeholder="Enter your email:"> <br>
+			 
+			<label for="msg" > Message: </label>
+	<textarea id="msg" name="answer" placeholder="Type your message here..." rows="5"></textarea> 
+	<br>
+	<button type="button" onclick="alert('Form Sent!')">
+		Submit message:
+	</button>
+
+		</form>
+	</fieldset>
+</div>
+</div>
+
+<footer>
+<div class="main-footer">
+	<div class ="footer-content">
+		<h3> Contact Us </h3>
+		<p>Email: heroes@avengers.com </p>
+		<p>Phone: +63 123 456 789 </p>
+		<p>Address: Avengers HQ - New York </p>
+	</div>
+	<div class ="footer-content">
+		<h3> Quick Links </h3>
+		<ul class="list">
+			<li><a href="HomePage.html">Home</a></li>
+			<li><a href="Blogs.html">Blogs</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+			<li><a href="About.html">About Us</a></li>
+		</ul>
+	</div>
+	<div class ="footer-content">
+		<h3> Follow Us </h3>
+		<ul class="social-icons">
+		<li><a href="https://www.facebook.com/avengers" target="_blank"><i class="fab fa-facebook"></i></a></li>
+		<li><a href="https://x.com/avengers" target="_blank"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="https://www.instagram.com/avengers/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="https://www.youtube.com/@marvel" target="_blank"><i class="fab fa-youtube"></i></a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="bottom-bar">
+	<p> ©: 2025 The Avengers Corp . All rights reserved </p>
+</div>
+</footer>
+
+</body>
+</html>
